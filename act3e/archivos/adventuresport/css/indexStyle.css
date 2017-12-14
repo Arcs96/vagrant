@@ -1,0 +1,107 @@
+.sliderContent{
+  height: 40%;
+  width: 100%;
+}
+
+.imageContainer{
+  width: 100%;
+  position: relative;
+}
+
+.sliderArrowLeft{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 5%;
+  height: 10%
+}
+
+.sliderArrowRight{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 5%;
+  height: 10%
+}
+
+.titleSlider {
+  position: absolute;
+  top: 40%;
+  right: 40%;
+  color: #FFFFFF;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.listAventure:before{
+  display: block;
+}
+
+.content-top ul{
+  text-align: center;
+  padding: 0;
+}
+
+.content-top li{
+  width: 20%;
+  margin-left: 1%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  text-align: center;
+}
+
+.content-top li img {
+  width: 100%;
+  height: auto;
+}
+
+.textImageAventure{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  visibility: visible;
+  text-align: center;
+  cursor: pointer;
+}
+
+.prueba{
+  height: 40%;
+  width: 100%;
+}
+
+.bgimg {
+    height: 100%;
+    background: url('../images/slider3.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.titleCount {
+  color: black;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.textCount {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    color: white;
+    margin: auto;
+    width: 40%;
+}

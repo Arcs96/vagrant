@@ -1,0 +1,21 @@
+
+/* botón social */
+#btnSocial{
+	outline: 0;
+	margin-right: 10px;
+}
+#btnSocial:hover {
+	opacity: 0.7;
+}
+
+/* Botones Comprar y silder */
+.boton{
+	font-size:16px;
+	color:white;
+	background:black;
+	border:0px;
+	padding: 4px;
+}
+input:hover{
+ opacity: 0.7;
+}
